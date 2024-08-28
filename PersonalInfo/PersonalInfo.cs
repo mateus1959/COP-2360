@@ -23,7 +23,7 @@ workPhone = "work 000-444-0101";
 cellPhone = "cell 000-444-0189";
 Display(name, birthDate, workPhone, cellPhone);
 
-public static void Display(string name, string birthDate, string workPhone, string cellPhone) {
+static void Display(string name, string birthDate, string workPhone, string cellPhone) {
     Console.WriteLine(name);
     Console.WriteLine(birthDate);
     Console.WriteLine(workPhone);
