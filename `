@@ -1,0 +1,71 @@
+[33mcommit f1f4102c96fa31acbc9fb769dcb79ab629020eb8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: St. Augustine <mateus1959@users.noreply.github.com>
+Date:   Thu Sep 12 23:26:56 2024 -0400
+
+    Converted program to accept user input for inches
+
+[33mcommit e83cfa1f61a554ee49913f12cd0d23ce8162a1e2[m
+Author: St. Augustine <mateus1959@users.noreply.github.com>
+Date:   Wed Sep 11 20:09:18 2024 -0400
+
+    Coded Program.cs
+
+[33mcommit 5154e24bd48e5bfa1bd950a95a04e7d4ec04a84c[m
+Author: St. Augustine <mateus1959@users.noreply.github.com>
+Date:   Wed Sep 4 19:04:51 2024 -0400
+
+    Manually added the bin and obj folders
+
+[33mcommit 8087fccd931bdd983e78577ce788a7fed1472424[m
+Author: St. Augustine <mateus1959@users.noreply.github.com>
+Date:   Wed Sep 4 19:01:30 2024 -0400
+
+    Added lyrics.generated.sln file
+
+[33mcommit 718d8754f90b8f583f8f0a9045e3e4b48bf8f043[m
+Author: St. Augustine <mateus1959@users.noreply.github.com>
+Date:   Wed Sep 4 18:59:34 2024 -0400
+
+    Added Lyrics
+
+[33mcommit 5c5cbce349f4219b9923884a35da6acdc5c58bb8[m
+Author: St. Augustine <mateus1959@users.noreply.github.com>
+Date:   Wed Aug 28 17:37:33 2024 -0400
+
+    Ran tests
+
+[33mcommit 5167c135b70ffa00848993f73742a78f7f399267[m
+Author: St. Augustine <mateus1959@users.noreply.github.com>
+Date:   Wed Aug 28 17:26:56 2024 -0400
+
+    Removed public access identifier from Display method
+
+[33mcommit 6bf19c6d92b7767c57582bd76ea2623961646686[m
+Author: St. Augustine <mateus1959@users.noreply.github.com>
+Date:   Wed Aug 28 17:24:14 2024 -0400
+
+    Wrote code for PersonalInfo
+
+[33mcommit 1033712462f9a4187adb6796a7d688ca60131008[m
+Author: St. Augustine <mateus1959@users.noreply.github.com>
+Date:   Wed Aug 28 17:19:47 2024 -0400
+
+    Add PersonalInfo project
+
+[33mcommit d312a238cddaf51746b74c3931a09adcf50f1aa8[m
+Author: Mateus <141085612+mateus1959@users.noreply.github.com>
+Date:   Wed Aug 28 21:04:17 2024 +0000
+
+    Created PersonalInfo.cs
+
+[33mcommit 993b862a0206712434b57bc8384f12aedc23c328[m
+Author: Mateus <141085612+mateus1959@users.noreply.github.com>
+Date:   Fri Aug 23 12:49:27 2024 +0000
+
+    Update Hello message - added name
+
+[33mcommit a388aa574e42c69463258bd6e54074dd0310d5c2[m
+Author: Mateus Machado <35967486-mateusmachado14@users.noreply.replit.com>
+Date:   Thu Aug 22 21:18:36 2024 +0000
+
+    Initial commit
