@@ -26,7 +26,20 @@ do
             // Output the comparison and revenue
             Console.WriteLine($"\nLast year's competition had {lastYearContestants} contestants, and this year's has {thisYearContestants} contestants.");
             Console.WriteLine($"Revenue expected this year is ${revenue}.");
-            Console.WriteLine($"It is {(thisYearContestants > lastYearContestants ? "true" : "false")} that this year's competition is bigger than last year's.\n");
+
+            // Comparison messages
+            if (thisYearContestants > 2 * lastYearContestants)
+            {
+                Console.WriteLine("The competition is more than twice as big this year!");
+            }
+            else if (thisYearContestants > lastYearContestants)
+            {
+                Console.WriteLine("The competition is bigger than ever!");
+            }
+            else
+            {
+                Console.WriteLine("A tighter race this year! Come out and cast your vote!");
+            }
 
             // Display the stars
             Console.WriteLine("************************************");
@@ -44,4 +57,3 @@ do
     }
 
 } while (choice != 2);
-
