@@ -13,19 +13,36 @@ do
     switch (choice)
     {
         case 1:
-            // Input last year's and this year's number of contestants
-            Console.Write("Enter the number of contestants last year: ");
-            lastYearContestants = int.Parse(Console.ReadLine());
+            // Input last year's number of contestants with validation
+            do
+            {
+                Console.Write("Enter the number of contestants last year (0-30): ");
+                lastYearContestants = int.Parse(Console.ReadLine());
 
-            Console.Write("Enter the number of contestants this year: ");
-            thisYearContestants = int.Parse(Console.ReadLine());
+                if (lastYearContestants < 0 || lastYearContestants > 30)
+                {
+                    Console.WriteLine("Invalid input. Please enter a number between 0 and 30.");
+                }
+            } while (lastYearContestants < 0 || lastYearContestants > 30);
+
+            // Input this year's number of contestants with validation
+            do
+            {
+                Console.Write("Enter the number of contestants this year (0-30): ");
+                thisYearContestants = int.Parse(Console.ReadLine());
+
+                if (thisYearContestants < 0 || thisYearContestants > 30)
+                {
+                    Console.WriteLine("Invalid input. Please enter a number between 0 and 30.");
+                }
+            } while (thisYearContestants < 0 || thisYearContestants > 30);
 
             // Calculate the revenue expected this year
             int revenue = thisYearContestants * TICKET_PRICE;
 
-            // Output the comparison and revenue
-            Console.WriteLine($"\nLast year's competition had {lastYearContestants} contestants, and this year's has {thisYearContestants} contestants.");
-            Console.WriteLine($"Revenue expected this year is ${revenue}.");
+            // // Output the comparison and revenue
+            // Console.WriteLine($"\nLast year's competition had {lastYearContestants} contestants, and this year's has {thisYearContestants} contestants.");
+            // Console.WriteLine($"Revenue expected this year is ${revenue}.");
 
             // Comparison messages
             if (thisYearContestants > 2 * lastYearContestants)
